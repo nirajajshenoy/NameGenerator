@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Name Generator</title>
+  <style>
+    .heading{
+   
+     text-align:"center";
+     text-decoration: underline;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-style: normal;
+     color: blue;
+     align-content: center;
+    
+
+    }
+    .heading:hover{
+      text-decoration: none;
+      color: rgb(153, 153, 37);
+      font-weight: bolder;
+
+    }
+    .container{
+      height: 200px;
+      width: 200px;
+      background-color: rgb(183, 182, 189);
+      margin-top: 150px;
+      padding-left: 10px;
+      margin-left: 600px;
+      font-size:x-large;
+      box-shadow: inset;
+
+    
+      /* margin: auto; */
+      padding-top: 20px;
+
+    }
+    .button{
+      background-color: blanchedalmond;
+      text-align: center;
+      align-content: center;
+      align-self: center;
+      padding: auto;
+      margin: auto;
+    }
+    .button:hover{
+      background-color: aquamarine;
+      font-weight: bolder;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="heading">Username Generator</h1>
+  <form action="/submit" method="POST" class="container">
+    <label for="street">First Name :</label>
+    <input type="text" name="FirstName" required>
+    <label for="pet">Last Name :</label>
+    <input type="text" name="LastName" required>
+    <input  class="button" type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
